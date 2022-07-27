@@ -1,19 +1,29 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
 }
 
+:root {
+    --titulo: 'Cinzel Decorative', cursive;
+}
+
 body {
-    background-color: rgba(218, 212, 179, 0.733);   
+    background-attachment: fixed; 
+    background-image: url(fotos/fundo-g.jpg);
+    background-position-x: center;
+    background-position-y: center;
 }
 
 header {
-    background-color: black;
+    background: linear-gradient(to bottom, #000000, #000000ec ,#0e0d0d);
+    box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.247);
     color: azure;
     padding: 60px;
-    
+    text-shadow: 2px 2px rgba(255, 217, 0, 0.664);
 }
 
 .title {
@@ -22,6 +32,8 @@ header {
     text-align: center;
     display: flex;
     justify-content: center;
+    font-family: var(--titulo);
+    font-weight: normal;
 }
 
 .grid {
@@ -42,13 +54,13 @@ header {
 }
 
 footer {
-    padding: 20px;
+    padding: 18.5px;
     background-color: black;
     color: white;
     text-align: center; 
 }
 
 footer > p > a {
-    color: green;
+    color: #af9852;
     text-decoration: none;
 }
