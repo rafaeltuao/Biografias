@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    padding: 20px;
+    background-color: crimson;
+}
+
+nav > a {
+    padding: 5px;
+    text-decoration: none;
+    color: darkblue;
+    background-color: rgb(99, 84, 84);
+    border-radius: 10px;
+}
+
+nav a:hover {
+    color: chartreuse;
+}
